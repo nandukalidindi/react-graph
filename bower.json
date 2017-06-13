@@ -1,0 +1,29 @@
+{
+  "name": "react-graph",
+  "version": "0.0.0",
+  "description": "Regraph",
+  "main": "dist/react-graph.min.js",
+  "homepage": "https://github.com/nandukalidindi/react-graph",
+  "authors": [
+    "Nandu Kalidindi"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "src",
+    "node_modules",
+    "example",
+    "test"
+  ]
+}
