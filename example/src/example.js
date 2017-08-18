@@ -1,15 +1,16 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-var Regraph = require('react-graph');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Regraph from '../../src/Regraph.js';
 
-var App = React.createClass({
-	render () {
+
+class App extends React.Component {
+	render() {
 		return (
 			<div>
 				<Regraph />
 			</div>
 		);
 	}
-});
+}
 
 ReactDOM.render(<App />, document.getElementById('app'));
